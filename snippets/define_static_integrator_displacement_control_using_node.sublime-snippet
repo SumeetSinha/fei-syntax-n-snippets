@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// define static integrator displacement_control using node # <.> dof DOFTYPE increment <length>;
+// define static integrator displacement_control using node # <.> dof DOFTYPE increment <L>;
 define static integrator displacement_control using node # $1 dof DOFTYPE increment $2;
 
 

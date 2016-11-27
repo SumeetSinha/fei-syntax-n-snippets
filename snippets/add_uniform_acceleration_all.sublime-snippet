@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add uniform acceleration # <.> to all nodes dof <.> time_step = <T> scale_factor = <.> initial_velocity = <L/S> acceleration_file = <string>;
+// add uniform acceleration # <.> to all nodes dof <.> time_step = <T> scale_factor = <L/T^2> initial_velocity = <L/T> acceleration_file = <string>;
 add uniform acceleration # $1 to all nodes dof $2 
 	time_step = $3 
 	scale_factor = $4 

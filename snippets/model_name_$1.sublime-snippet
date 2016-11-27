@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// model name "name_string";
+// model name <string>;
 model name $1;
 
 

@@ -5,10 +5,10 @@ import numpy as np
 import plistlib
 import simplejson
 
-# removing old snippet and keywords
+# # removing old snippet and keywords
 os.system("rm -r snippets")
 
-# updating snippets and keywords
+# # updating snippets and keywords
 os.system("svn export --force https://github.com/BorisJeremic/Real-ESSI/branches/sumeet/DSL/snippets ") 
 
 # need to create language json file

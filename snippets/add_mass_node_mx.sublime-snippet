@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add mass to node # <.> mx = <mass> my = <mass> mz = <mass>;
+// add mass to node # <.> mx = <M> my = <M> mz = <M>;
 add mass to node # $1 
 	mx = $2 
 	my = $3 

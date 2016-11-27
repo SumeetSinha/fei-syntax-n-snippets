@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add section # <.> type Elastic_Membrane_Plate elastic_modulus = <F/L^2> poisson_ratio = <.> thickness = <length> mass_density = <M/L^3>;
+// add section # <.> type Elastic_Membrane_Plate elastic_modulus = <Pa> poisson_ratio = <.> thickness = <L> mass_density = <M/L^3>;
 add section # $1 type Elastic_Membrane_Plate 
 	elastic_modulus = $2 
 	poisson_ratio = $3 

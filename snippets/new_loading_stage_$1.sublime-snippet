@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// new loading stage "name_string";
+// new loading stage <string>;
 new loading stage $1;
 
 

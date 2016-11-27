@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// define physical_node_group "string";
+// define physical_node_group <string>;
 define physical_node_group $1;
 
 

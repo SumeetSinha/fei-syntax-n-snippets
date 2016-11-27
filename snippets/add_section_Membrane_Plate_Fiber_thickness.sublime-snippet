@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add section # <.> type Membrane_Plate_Fiber thickness = <length> use material # <.>;
+// add section # <.> type Membrane_Plate_Fiber thickness = <L> use material # <.>;
 add section # $1 type Membrane_Plate_Fiber 
 	thickness = $2 use material # $3;
 

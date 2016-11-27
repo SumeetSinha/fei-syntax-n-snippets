@@ -14,6 +14,10 @@
 8NodeBrick
 8NodeBrick_up
 8NodeBrick_upU
+Backward_Euler
+Backward_Euler_ddlambda
+Backward_Euler_ddlambda_Subincrement
+BARDETMETHOD
 beam_9dof_elastic
 beam_displacement_based
 beam_elastic
@@ -22,19 +26,26 @@ BeamColumnDispFiber3d
 CamClay
 Caughey3rd
 Caughey4th
+constant mean pressure triaxial strain control
+DIRECT_STRAIN
+displacement_control
 DOFTYPE
+drained triaxial strain control
 DruckerPrager
 DruckerPragerArmstrongFrederickLE
 DruckerPragerArmstrongFrederickNE
 DruckerPragerNonAssociateArmstrongFrederick
 DruckerPragerNonAssociateLinearHardening
 DruckerPragerVonMises
+dynamic
+eigen
 Energy_Increment
 F_fluid_x
 F_fluid_y
 F_fluid_z
 FORCETYPE
-Forward_Euler|Forward_Euler_Subincrement|Backward_Euler|Backward_Euler_ddlambda|Backward_Euler_ddlambda_Subincrement
+Forward_Euler
+Forward_Euler_Subincrement
 from_reactions
 Fx
 Fy
@@ -52,12 +63,15 @@ My
 Mz
 Newmark
 Newton
+non_converged_iterations
 Norm_Displacement_Increment
 Norm_Unbalance
+Parallel
 path_series
 path_time_series
 ProfileSPD
 Rayleigh
+reactions
 Relative_Energy_Increment
 Relative_Norm_Displacement_Increment
 Relative_Norm_Unbalance
@@ -69,9 +83,13 @@ ShearBeam
 SoftContact
 SoftWetContact
 static
+support
 transient
 truss
 UMFPack
+undrained simple shear
+undrained triaxial
+undrained triaxial stress control
 uniaxial_concrete02
 uniaxial_elastic
 uniaxial_steel01

@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add acceleration field # <.> ax = <accel> ay = <accel> az = <aaccel> ;
+// add acceleration field # <.> ax = <L/T^2> ay = <L/T^2> az = <L/T^2> ;
 add acceleration field # $1 
 	ax = $2 
 	ay = $3 

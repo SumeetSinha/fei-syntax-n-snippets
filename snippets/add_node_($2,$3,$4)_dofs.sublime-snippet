@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add node # <.> at (<length>,<length>,<length>)  with <.> dofs;
+// add node # <.> at (<L>,<L>,<L>)  with <.> dofs;
 add node # $1 at ($2,$3,$4)  with $5 dofs;
 
 

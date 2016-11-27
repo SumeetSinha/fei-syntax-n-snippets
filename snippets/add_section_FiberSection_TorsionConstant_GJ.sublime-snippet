@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add section # <.> type FiberSection TorsionConstant_GJ = <F*L^2>
+// add section # <.> type FiberSection TorsionConstant_GJ = <Nm^2>
 add section # $1 type FiberSection 
 	TorsionConstant_GJ = $2
 

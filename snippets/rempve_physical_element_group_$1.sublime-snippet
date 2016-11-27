@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// rempve physical_element_group "string";
+// rempve physical_element_group <string>;
 rempve physical_element_group $1;
 
 

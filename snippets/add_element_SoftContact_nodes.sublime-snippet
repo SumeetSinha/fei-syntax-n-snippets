@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add element # <.> type SoftContact with nodes (<.>, <.>) initial_normal_stiffness = <F/L> stiffning_rate = <m^-1> tangential_stiffness = <F/L> normal_damping = <F/L> tangential_damping = <F/L>  friction_ratio = <.>  contact_plane_vector = (<.>, <.>, <.> );
+// add element # <.> type SoftContact with nodes (<.>, <.>) initial_normal_stiffness = <F/L> stiffning_rate = <1/L> tangential_stiffness = <F/L> normal_damping = <F/L> tangential_damping = <F/L>  friction_ratio = <.>  contact_plane_vector = (<.>, <.>, <.> );
 add element # $1 type SoftContact with nodes ($2, $3) 
 	initial_normal_stiffness = $4 
 	stiffning_rate = $5 

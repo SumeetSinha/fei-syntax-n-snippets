@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// print physical_element_group "string";
+// print physical_element_group <string>;
 print physical_element_group $1;
 
 

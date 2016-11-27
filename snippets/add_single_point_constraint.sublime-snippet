@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add single point constraint to node # <.> dof to constrain <dof_type> constraint value of <corresponding unit>;
+// add single point constraint to node # <.> dof to constrain <DofType> constraint value of <DofUnit>;
 add single point constraint to node # $1 dof to constrain $2 constraint value of $3;
 
 

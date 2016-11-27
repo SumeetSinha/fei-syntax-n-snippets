@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add material # <.> type uniaxial_elastic elastic_modulus = <F/L^2> viscoelastic_modulus = <mass / length / time> ;
+// add material # <.> type uniaxial_elastic elastic_modulus = <F/L^2> viscoelastic_modulus = <M/L/T> ;
 add material # $1 type uniaxial_elastic 
 	elastic_modulus = $2 
 	viscoelastic_modulus = $3 ;

@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add nodes (<.>) to physical_node_group "string";
+// add nodes (<.>) to physical_node_group <string>;
 add nodes ($1) to physical_node_group $2;
 
 

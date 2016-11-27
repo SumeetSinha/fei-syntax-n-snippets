@@ -1,7 +1,7 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// remove physical_node_group "string";
+// remove physical_node_group <string>;
 remove physical_node_group $1;
 
 

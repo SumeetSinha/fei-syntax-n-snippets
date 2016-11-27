@@ -1,15 +1,15 @@
 <!-- FEI developer aids for Sublime Text  -->
 <snippet>
 	<content><![CDATA[
-// add imposed motion # <.> to node # <.> dof DOFTYPE time_step = <t> displacement_scale_unit = <length> displacement_file = "disp_filename" velocity_scale_unit = <velocity> velocity_file = "vel_filename" acceleration_scale_unit = <acceleration> acceleration_file = "acc_filename";
-add imposed motion # $1 to node # $2 dof DOFTYPE 
-	time_step = $3 
-	displacement_scale_unit = $4 
-	displacement_file = $5 
-	velocity_scale_unit = $6 
-	velocity_file = $7 
-	acceleration_scale_unit = $8 
-	acceleration_file = $9;
+// add imposed motion # <.> to node # <.> dof <DOFTYPE> time_step = <T> displacement_scale_unit = <L> displacement_file = <string> velocity_scale_unit = <L/T> velocity_file = <string> acceleration_scale_unit = <L/T^2> acceleration_file = <string>;
+add imposed motion # $1 to node # $2 dof $3 
+	time_step = $4 
+	displacement_scale_unit = $5 
+	displacement_file = $6 
+	velocity_scale_unit = $7 
+	velocity_file = $8 
+	acceleration_scale_unit = $9 
+	acceleration_file = $10;
 
 
 	]]></content>
